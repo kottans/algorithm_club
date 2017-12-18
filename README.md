@@ -1,4 +1,5 @@
 # algorithm_club
+[![Gitter](https://badges.gitter.im/Kottans/algorithm_club.svg)](https://gitter.im/Kottans/algorithm_club?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## IS UNDER CONSTRUCTION
 

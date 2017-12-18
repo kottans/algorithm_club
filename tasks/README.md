@@ -19,8 +19,5 @@
     1. that also means we shouldn't **watch** the repo, as there will be tons of notifications;
 1. each task is done in own fork and then a pull-request made to kottans repo
 1. Pull request is sent for review to fellow kottan - each new **PR** to **next** kottan;
-
-![](https://media.giphy.com/media/6wpSb2OmYmiRi/giphy.gif)
-
 1. ???? - means review here
 1. Pull request accepted and those from group who have write access merge PR to master;

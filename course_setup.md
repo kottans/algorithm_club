@@ -2,7 +2,7 @@
 
 ## Plan for start
 
-## STATUS:  DRAFT
+### STATUS:  DRAFT
 
 ## Duration
 
@@ -49,7 +49,7 @@ Here explanation needed. Hence we are driven to improve our code writing and cod
 - expecting 10 max 15 people
 - for each part of course there will be division into sub-groups
 - optimistic drop-out rate 40%
-> at the end we will still invite to the alumni party all those who didn't make it to cheer you uo
+> at the end we will invite to the alumni party all those who didn't make it to cheer you, as you actually made an effort to start and that deserves admiration ;)
 
 ### Activities between meetings
 

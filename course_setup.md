@@ -61,6 +61,14 @@ Here explanation needed. Hence we are driven to improve our code writing and cod
 
 - peer review;
 - each sub group prepares mini-task from **placeholder_algorithm_book** and present the story of solution;
+    >| Concerns:| -- | How to deal with|
+    >|--------- | -- | ----------------|
+    >| presentation equipment within co-working | -- | needs facility investigation
+    >| time limit during meetings | -- | 10 minutes * 15/2 group number == 75 minutes. decline time to 5 minutes or make this activity optional |
+    >| public speaking feare | -- | make this activity optional |
+
+
+
 - task discussion;
 
 ## Peer review procedure

@@ -1,13 +1,3 @@
-# Tasks
-
-## List of Students
-
-???
-
-## List of Tasks
-
-????
-
 ## Peer review procedure
 
 >**here discussion appreciated**

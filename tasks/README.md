@@ -1,16 +1,4 @@
-# Tasks
-
-## List of Students
-
-???
-
-## List of Tasks
-
-????
-
 ## Peer review procedure
-
->**here discussion appreciated**
 
 1. the one, who participate make fork of this repo
 1. the one, who participate create a folder in `/tasks/%username%` location

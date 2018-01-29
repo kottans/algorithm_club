@@ -1,7 +1,5 @@
 ## Peer review procedure
 
->**here discussion appreciated**
-
 1. the one, who participate make fork of this repo
 1. the one, who participate create a folder in `/tasks/%username%` location
     1. to track activity i'd(@Quodnon) urge to open **PR** prior to actually creating the solution.

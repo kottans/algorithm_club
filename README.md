@@ -42,17 +42,17 @@ Yes, there are. Starting from February 8th, every Thursday from 19-30 to 21-00 t
 
 >list of participants will be ordered by random.org
 
-| № |    reviewer\Week number	|	week 1	|	week 2	|	week 3	|	week 4	|	week 5	|	week 6	|	week 7	|	week 8	|	week 9	|
-|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|   1   |   username 1	|	2	|	3	|	4	|	5	|	6	|	7	|	8	|	9	|	2	|
-|	2	|	username 2	|	3	|	4	|	5	|	6	|	7	|	8	|	9	|	1	|	3	|
-|	3	|	username 3	|	4	|	5	|	6	|	7	|	8	|	9	|	1	|	2	|	4	|
-|	4	|	username 4	|	5	|	6	|	7	|	8	|	9	|	1	|	2	|	3	|	5	|
-|	5	|	username 5	|	6	|	7	|	8	|	9	|	1	|	2	|	3	|	4	|	6	|
-|	6	|	username 6	|	7	|	8	|	9	|	1	|	2	|	3	|	4	|	5	|	7	|
-|	7	|	username 7	|	8	|	9	|	1	|	2	|	3	|	4	|	5	|	6	|	8	|
-|	8	|	username 8	|	9	|	1	|	2	|	3	|	4	|	5	|	6	|	7	|	9	|
-|	9	|	username 9	|	1	|	2	|	3	|	4	|	5	|	6	|	7	|	8	|	1	|
+| № | reviewer\Week number  |	week 1	|	week 2	|	week 3	|	week 4	|	week 5	|	week 6	|	week 7	|	week 8	|	week 9	|
+|-- | --                    |-- |-- |-- |-- |-- |-- |-- |-- |-- |
+| 1 | username 1  	        |	2	|	3	|	4	|	5	|	6	|	7	|	8	|	9	|	2	|
+|	2	|	username 2	          |	3	|	4	|	5	|	6	|	7	|	8	|	9	|	1	|	3	|
+|	3	|	username 3	          |	4	|	5	|	6	|	7	|	8	|	9	|	1	|	2	|	4	|
+|	4	|	username 4	          |	5	|	6	|	7	|	8	|	9	|	1	|	2	|	3	|	5	|
+|	5	|	username 5	          |	6	|	7	|	8	|	9	|	1	|	2	|	3	|	4	|	6	|
+|	6	|	username 6	          |	7	|	8	|	9	|	1	|	2	|	3	|	4	|	5	|	7	|
+|	7	|	username 7	          |	8	|	9	|	1	|	2	|	3	|	4	|	5	|	6	|	8	|
+|	8	|	username 8	          |	9	|	1	|	2	|	3	|	4	|	5	|	6	|	7	|	9	|
+|	9	|	username 9	          |	1	|	2	|	3	|	4	|	5	|	6	|	7	|	8	|	1	|
  
 
 >Plan for setup and jump start located [here](/course_setup.md).

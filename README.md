@@ -1,4 +1,5 @@
 # algorithm_club
+[![Gitter](https://badges.gitter.im/Kottans/algorithm_club.svg)](https://gitter.im/Kottans/algorithm_club?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## FAQ
 
@@ -56,3 +57,4 @@ Yes, there are. Starting from February 8th, every Thursday from 19-30 to 21-00 t
  
 
 >Plan for setup and jump start located [here](/course_setup.md).
+ 

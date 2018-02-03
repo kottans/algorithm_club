@@ -10,7 +10,7 @@
 
 ### What should I know and have before I join?
 
-1. Have optimusm and responsibility enough to keep track and endure the whole course.
+1. Have optimism and responsibility enough to keep track and endure the whole course.
 1. Know at least one programming language suitable for completing course.
 1. Know git and github enough to send pull requests with your completed work.
 1. Have a laptop to join our workshops/offline meetings.

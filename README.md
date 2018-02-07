@@ -38,7 +38,7 @@
 | № | Teammate |
 |-- | --                  |
 |	1|	veligura	  |	
-|	2|	Oleksandr Siryi |	
+|	2|	Oleksandr Siryi /ephir |	
 |	3|	Quodnon     |	
 |	4|	dm3shfieiev |	
 |	5|	dumareckii	|	
@@ -49,10 +49,10 @@
 |10|	aleshaoleg	|	
 |11|	amashoshyna	|	
 |12|	Alimova	    |	
-|13|  Оля Глазкова|	
+|13|  OlhaHlazkova |	
 |	14|	robobee |	
 
-| week number | pairs |
+| week number | pairs |--|--|--|--|--|--|
 | -- | --|--|--|--|--|--|--|--|--|
 |1 | 1-14| 2-13| 3-12| 4-11| 5-10| 6-9| 7-8|
 |2 | 1-13| 2-12| 3-11| 4-10| 5-9| 6-8| 7-14 |
@@ -63,6 +63,7 @@
 |7 | 1-8| 2-7| 3-6| 4-5| 5-12| 9-13 | 10-14|
 |8 | 1-14| 2-13| 3-12| 4-11| 5-10| 6-9| 7-8|
 |9 | 1-13| 2-12| 3-11| 4-10| 5-9| 6-8| 7-14 |
+
 ### What should I know and have before I join?
 
 1. Have optimism and responsibility enough to keep track and endure the whole course.

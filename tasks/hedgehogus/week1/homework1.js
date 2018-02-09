@@ -100002,55 +100002,56 @@ var input = `54044
 function start(){
     //let array = input.split("\n");
     //console.log(array.length);
-    let array = [3,7,1,5,2,6,4];
-    return countArray(array, array.length);
+    let array = [1,3, 8, 5, 7, 2, 4, 6];
+    return countArray(array);
 };
 
-function countArray(arr, n){
-    let temp = new Array(n);
-    return count(arr,temp,0,n-1);
+function countArray(arr){ 
+    let res = count(arr);    
+    return res.inversions;
 };
 
-function count(arr, temp, left, right){
-    let mid;
-    let inversionsCount = 0;
-    if( right > left) {        
-        mid = (right+left)/2;
-        mid = Math.floor(mid);
-        inversionsCount = count(arr,temp,left,mid) + count(arr,temp,mid+1,right);
-        inversionsCount = inversionsCount + merge(arr, temp, left, mid+1, right); 
+function count(arr){
+    let n = arr.length;
+    let inversions = 0;    
+    let result;    
+    if(n > 1) {
+        let mid = Math.ceil(n/2);
+        let l = arr.slice(0,mid);
+        let r = arr.slice(mid,n);        
+        let left = count(l);
+        let right = count(r);  
+        let {resultArray, inversionsCount} = merge(left.result,right.result);   
+        
+        inversions = left.inversions + right.inversions;
+        inversions +=inversionsCount; 
+        
+        result = resultArray;                
+    } else {
+        result = arr;
     }
     
-    return inversionsCount;
+    return {result,inversions};
 }
 
-function merge(arr, temp, left, mid, right){
-    let i = left; // index for left subarray
-    let j = mid;  // index for right subarray
-    let k = left; // index for resultant merged subarray
-    let inversionsCount = 0;
-
-    while ((i <= mid - 1) && (j <= right)){
-        if (arr[i] <= arr[j]) {
-          temp[k++] = arr[i++];
-        } else {
-          temp[k++] = arr[j++];      
-          inversionsCount = inversionsCount + (mid - i);
-        }
-    }
-
-    while (i <= mid - 1) {
-        temp[k++] = arr[i++];
-    };
-
-    while (j <= right){
-        temp[k++] = arr[j++];
-    };
-
-    for (i=left; i <= right; i++){
-        arr[i] = temp[i];
-    };
+function merge(left, right){
+    let inversionsCount = 0;    
+    let l = left.length + right.length;
+    let resultArray = new Array(l);
+    console.log(left + ' ... ' +right);
     
-    return inversionsCount;
-      
+    for(let i = 0; i < l; i ++){
+        if (typeof left[0] == 'undefined' || left[0] >right[0] ){
+            resultArray[i] = right.shift();            
+            inversionsCount +=left.length;            
+        } else if (typeof right[0] == 'undefined' || left[0] <= right[0]){
+            resultArray[i] = left.shift();
+           
+        } 
+
+    }
+    
+    console.log(resultArray);
+
+    return {resultArray, inversionsCount};      
 }

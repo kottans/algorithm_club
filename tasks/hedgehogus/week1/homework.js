@@ -1,8 +1,9 @@
 
 function start(){
-    let array = input.split("\n");
+    let array = input.split("\n").map(item => {
+    return parseInt(item, 10)});
     //console.log(array.length);
-    //let array = [1,3, 8, 5, 7, 2, 4, 6];
+    //let array = [10,3, 4, 5, 7, 1, 8, 9, 2, 6];
     return countArray(array);
 };
 
@@ -38,12 +39,13 @@ function merge(left, right){
     let inversionsCount = 0;    
     let l = left.length + right.length;
     let resultArray = new Array(l);
-    //console.log(left + ' ... ' +right);
+    //console.log(left + ' <-> ' +right);
     
     for(let i = 0; i < l; i ++){
         if (typeof left[0] == 'undefined' || left[0] >right[0] ){
             resultArray[i] = right.shift();            
-            inversionsCount +=left.length;            
+            inversionsCount +=left.length;   
+            //inversionsCount ++;         
         } else if (typeof right[0] == 'undefined' || left[0] <= right[0]){
             resultArray[i] = left.shift();
            
@@ -52,6 +54,7 @@ function merge(left, right){
     }
     
     //console.log(resultArray);
+    //console.log(inversionsCount);
 
     return {resultArray, inversionsCount};      
 }

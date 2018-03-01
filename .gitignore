@@ -1,3 +1,19 @@
 tasks/quodnon/week_1/count_revercies_cs/bin/
 tasks/quodnon/week_1/count_revercies_cs/obj/
 .vscode/
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+target
+
+#NetBeans
+/nbproject/

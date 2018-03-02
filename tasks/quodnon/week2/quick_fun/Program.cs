@@ -16,7 +16,6 @@ namespace quick_fun
         }
         static int[] QuickSort (int [] array, enum pivotPoint)
         {
-            swi
         }
     }
 }

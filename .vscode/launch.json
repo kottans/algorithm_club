@@ -20,10 +20,10 @@
             "name": "F# quicksort",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build fs mergesort",
-            "program": "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd/bin/Debug/netcoreapp2.0/merge_sort.dll",
+            "preLaunchTask": "build week2 fs",
+            "program": "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd/QuickSortService/bin/Debug/netcoreapp2.0/QuickSortService.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/tasks/quodnon/week_1/merge_sort",
+            "cwd": "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd",
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"

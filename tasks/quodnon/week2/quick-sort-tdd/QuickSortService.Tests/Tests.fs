@@ -1,5 +1,6 @@
 module Tests
 
+open QuickSortService.QuickSort
 open System
 open Xunit
 

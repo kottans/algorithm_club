@@ -32,12 +32,12 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "build week2 cs",
+            "label": "build week2 fs",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/tasks/quodnon/week2/quick_fun/quick_fun.csproj"
+                "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd/quick-sort-tdd.sln"
             ],
             "problemMatcher": "$msCompile"
         }

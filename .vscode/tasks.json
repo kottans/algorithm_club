@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd/quick-sort-tdd.sln"
+                "${workspaceFolder}/tasks/quodnon/week2/quick_fun/quick_fun.csproj"
             ],
             "problemMatcher": "$msCompile"
         },

@@ -44,7 +44,7 @@
             "name": ".NET Core quicksort",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build week2 cs",
+            "preLaunchTask": "build cs week2",
             "program": "${workspaceFolder}/tasks/quodnon/week2/quick_fun/bin/Debug/netcoreapp2.0/quick_fun.dll",
             "args": [],
             "cwd": "${workspaceFolder}/tasks/quodnon/week2/quick_fun",

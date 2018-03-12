@@ -13,19 +13,19 @@ module QuickSort =
         match mess with
         | [] -> [] , 0L
         | head::tail ->
-            counter <-counter+int64(tail.Length-1)
+         //   counter <-counter+int64(tail.Length-1)
             
             let (leftPivot, count1) = tail 
                                         |> List.filter (fun e -> e<head )
                                         |> quicksortFirst <|counter
             
-    //        counter<-counter+count1
+            counter<-counter+count1
             
             let (rightToPivot, count2) = tail 
                                         |>List.filter (fun e -> e>=head)
                                         |> quicksortFirst <|counter
             
-      //      counter<-counter+count2
+            counter<-counter+count2
             let result = List.concat  [leftPivot; [head]; rightToPivot]
             result ,counter
 
@@ -50,5 +50,5 @@ module QuickSort =
         | [] -> []
         | head::tail -> rev tail @ [head]
     
-    [5;4;3;2;1] |> rev |> printf "%A"
+    (quicksortFirst [5;4;3;2;1] 0L ) |> printf "%A"
     //quicksortFirst unsortedList 0L|>snd |>printf "%A"

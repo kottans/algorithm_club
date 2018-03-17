@@ -1,58 +1,51 @@
 
 function choosePivot(arr, limits) {
-if(limits) {
-    return Math.floor(
-        Math.random() * (limits[1] - limits[0])+ limits[0]
-    ) 
-} 
-return Math.floor(Math.random()*arr.length)
+	if(limits) {
+		return Math.floor(
+			Math.random() * (limits[1] - limits[0])+ limits[0]
+		) 
+	} 
+	return Math.floor(Math.random()*arr.length)
 }
-function swapElements(arr, a, b) {
-    let bufA = arr[a]
-    let bufB = arr[b]
-    // console.log(`swapping elements [${a}] ${arr[a]} and [${b}] ${arr[b]} `)
-    arr[a] = bufB
-    arr[b] = bufA
-    // console.log('result: of swapping ', arr)
+function swapByIndex(arr, a, b) {
+	let tempA = arr[a]
+	let tempB = arr[b]
+	arr[a] = tempB
+	arr[b] = tempA
 }
 
-function putBefore(arr, a, b) {
-    let elementToMove = arr.splice(b, 1)[0]
-    arr.splice(a, 0, elementToMove)
-}
-
-function partitionAroundPivot(arr, limits, pivotIndex) {
-    // console.log(`Arr to be partitioned: `, arr.filter((e, i) => i >= limits[0] && i <= limits[1]), 'around element ', arr[pivotIndex], 'currently on position ', pivotIndex)
-    let i, j, n 
-    n = limits[1] - limits[0]
-    for (j = limits[0]; j <= limits[1]; j++) {
-        if((j < pivotIndex) && (arr[j] > arr[pivotIndex])) {
-            swapElements(arr, j, pivotIndex)
-            pivotIndex = j
-        } 
-        else if((j > pivotIndex) && (arr[j] < arr[pivotIndex])) {
-            putBefore(arr, pivotIndex, j)
-            pivotIndex = pivotIndex + 1
+function partition(arr, boundaries) {
+    let initialPivotIndex = choosePivot(arr, boundaries)
+    let [leftBoundary, rightBoundary] = boundaries
+	if(initialPivotIndex !== leftBoundary) {
+		swapByIndex(arr, leftBoundary, initialPivotIndex)
+	}
+	let pivotValue = arr[leftBoundary]
+	let j = leftBoundary + 1
+	let i = leftBoundary + 1
+	for (j; j <= rightBoundary; j++) {
+		if (arr[j] < pivotValue) {
+			swapByIndex(arr, j, i)
+			i++
+		} 
     }
-
-}
-// console.log(`Partitioned arr: `, arr.filter((e, i) => i >= limits[0] && i <= limits[1]))
-// console.log(`Pivot: ${arr[pivotIndex]} at position: ${pivotIndex}`)
-return pivotIndex
+    let finalPivotIndex = i - 1
+	swapByIndex(arr, finalPivotIndex, leftBoundary)
+	return finalPivotIndex
 }
 
-function quickSort(arr, bordersGiven) {
-    let limits = bordersGiven || [0, arr.length - 1]
-    let n = limits[1] - limits[0]
-
-    let p = choosePivot(arr, limits)
-    let correctPivotPosition = partitionAroundPivot(arr, limits, p)
-    if(n > 1) {
-        let leftPartLimits = [limits[0], --correctPivotPosition]
-        let rightPartLimits = [++correctPivotPosition, limits[1]]
-        quickSort(arr, leftPartLimits)
-        quickSort(arr, rightPartLimits)
-    } 
+function quickSort(arr, boundariesGiven) {
+	let boundaries = boundariesGiven || [0, arr.length - 1]
+	let positionedElementIndex = partition(arr, boundaries)
+	let n = boundaries[1] - boundaries[0]
+	if(n > 1) {
+		let leftPartLimits = [boundaries[0], positionedElementIndex - 1]
+		let rightPartLimits = [positionedElementIndex + 1, boundaries[1]]
+		if (positionedElementIndex - 1 >= 0
+            && (leftPartLimits[1] - leftPartLimits[0]) > 0) quickSort(arr, leftPartLimits)
+        if (positionedElementIndex + 1 <= boundaries[1]
+            && (rightPartLimits[1] - rightPartLimits[0]) > 0) quickSort(arr, rightPartLimits)
+	} 
 }
 
 module.exports = quickSort

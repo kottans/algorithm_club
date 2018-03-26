@@ -21,4 +21,4 @@ Complete `Homework 2`
 
 And don't forget to stay in touch with other people in gitter chat
 
-After you completed this task, please follow to task 2.
+After you completed this task, please proceed to [task 2](/task.2.md).

@@ -10,8 +10,8 @@ Complete [task 0](#task-0)
 ### What are we learning?
 
 - **[OSS Stanford Algorithm course](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/)**
-- Skiena's book or for additional tasks
 - hackerrank.com | leetcode.com | codewars.com tasks
+- Skiena's book or for additional tasks
 
 
 ### What should I know and have before I join?

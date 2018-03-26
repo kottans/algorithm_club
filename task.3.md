@@ -1,4 +1,4 @@
-# task 2
+# task 3
 
 Complete theory sections for `Homework 4`
 
@@ -17,4 +17,4 @@ Complete `Homework 4`
 
 And don't forget to stay in touch with other people in gitter chat
 
-After you completed this task, please follow to task 3.
+After you completed this task, please proceed to [task 4](/task.4.md).

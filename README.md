@@ -41,17 +41,17 @@ Complete [task 0](#task-0)
 ## current [Participants](Participants.md)
 
 # task 0
-1. Join gitter chat
-1. Fork this repo
-1. Create folder tasks\%username%\Theory
-1. Create folder tasks\%username%\week1
-1. Complete sections
+- Join gitter chat
+- Fork this repo
+- Create folder tasks\%username%\Theory
+- Create folder tasks\%username%\week1
+- Complete sections
   - introduction
   - Asymptotic analysis
   - Divide and conquer algorithms
-1. Pass theoretical assessments from Homework 1
+- Pass theoretical assessments from Homework 1
   - put a screenshot with your grade into \Theory folder
-1. Complete Homework 1
+- Complete Homework 1
   - put solution code into \week 1 folder
 
 After you have completed task 0 you may pass to [task 1](/task.1.md)

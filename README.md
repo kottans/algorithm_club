@@ -27,6 +27,7 @@ Complete [task 0](#task-0)
   - keeping track on progress
   - peer review
   - work through several tasks from leetcode \codewars\hackerrank
+- offline meetings per request of team members
 - no restrictions on programming language to use, but we should be able and willing to explain our code to those unfamilliar with *my_beloved_programming_language*
 
 ### How to join?

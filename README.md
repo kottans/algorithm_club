@@ -31,13 +31,27 @@ Complete [task 0](#task-0)
 
 ### How to join?
 
->since we are just starting  - we will be happy to welcome new participants
 
 0. Join our gitter chat linked to this project
 1. Fork this repo.
 2. Create subdirectory `%username%` in `\tasks` directory.
-3. Send a pull request your work could be included and reviewed
+3. Send a pull request  so that your work could be included and reviewed
 4. All work is ought to be organized in `\tasks\user\week1\solution_1` manner.
 
+## current [Participants](Participants.md)
+
 # task 0
-Hello world
+1. Join gitter chat
+1. Fork this repo
+1. Create folder tasks\%username%\Theory
+1. Create folder tasks\%username%\week1
+1. Complete sections
+- introduction
+- Asymptotic analysis
+- Divide and conquer algorithms
+1. Pass theoretical assessments from Homework 1
+- put a screenshot with your grade into \Theory folder
+1. Complete Homework 1
+- put solution code into \week 1 folder
+
+After you have completed task 0 you may pass to [task 1](/task.1.md)

@@ -3,7 +3,7 @@ let inpup = [3,8,2,5,1,4,7,6];
 function start(){ 
     let array = input.split("\n").map(item => {return parseInt(item, 10)});  
     let arr =  array;
-    let result = partitioning(arr, 0, arr.length, 0);
+    let result = partitioning(arr, 0, arr.length);
     console.log(result);
     console.log(arr);
 };

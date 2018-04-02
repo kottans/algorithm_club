@@ -3,10 +3,10 @@
 |№|Github name| homework working on № |
 |-|-----------|----------|
 | 1|Hedgehogus| 3 |
-| 2|AMashoshyna|  2|
-| 3|Alimova|  2|
-| 4|OlhaBabenko|  1 |
-| 5|Quodnon	     |	2	|
+| 2|AMashoshyna|  3|
+| 3|Quodnon	     |	3	|
+| 4|Alimova|  2|
+| 5|OlhaBabenko|  1 |
 | 6|lysenko-sergei-developer   |	1	|
 |7|Zubb|1|
 |8|Sharlatta|1|

@@ -17,7 +17,8 @@ namespace count_revercies_cs
             //50000
             //55363
             //34758755
-
+            //correct
+            //2407905288
             // 1. read file
         var fileContent =  System.IO.File.ReadAllText("task.txt");
         var initialArray =  fileContent.Split('\n').Select(x=>Int32.Parse(x)).ToArray();

@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build cs week1",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/tasks/quodnon/week_1/count_revercies_cs/count_revercies_cs.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build cs week2",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/tasks/quodnon/week2/quick_fun/quick_fun.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build fs mergesort",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/tasks/quodnon/week_1/merge_sort/merge_sort.fsproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build week2 fs",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/tasks/quodnon/week2/quick-sort-tdd/quick-sort-tdd.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

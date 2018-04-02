@@ -1,6 +1,9 @@
 tasks/quodnon/week_1/count_revercies_cs/bin/
 tasks/quodnon/week_1/count_revercies_cs/obj/
-.vscode/
+tasks/quodnon/**/obj/
+tasks/quodnon/**/bin/
+tasks/quodnon/**/.suo
+# quodnon stuff
 
 *.iml
 

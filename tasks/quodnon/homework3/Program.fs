@@ -15,6 +15,7 @@ let main argv =
 
     let answer = Array.minBy (fun (graph, len) -> len ) arrayOfResults
   
+    printfn "cut %A"  (fst answer)
     printfn "answer %A"  (snd answer)
     Console.ReadLine() |> ignore
     0 
